@@ -1,0 +1,412 @@
+{
+  "total": 99,
+  "from75": 24,
+  "missingTo25": 1,
+  "missingToIndex99": 1,
+  "specs": [
+    {
+      "slug": "keling-dianShang-shipin-jiaoben",
+      "title": "可灵做电商产品视频脚本：镜头列表与提示词对照表",
+      "keyword": "可灵电商视频脚本",
+      "description": "把电商卖点拆成镜头提示，提高可灵出片可用性。",
+      "category": "视频生成",
+      "relatedToolIds": [
+        "kling"
+      ],
+      "dataPoints": [
+        "电商视频需突出材质/尺寸/使用场景",
+        "国内平台对虚假演示审核趋严",
+        "AI镜头需叠加实拍细节更可信"
+      ],
+      "angle": "美妆/3C两类模板"
+    },
+    {
+      "slug": "suno-tishici-jiegou-geshi",
+      "title": "Suno提示词结构：风格歌词与禁用元素怎么写",
+      "keyword": "Suno提示词结构",
+      "description": "给出可复用的Suno风格、情绪、乐器与歌词段落结构。",
+      "category": "音频语音",
+      "relatedToolIds": [
+        "suno"
+      ],
+      "dataPoints": [
+        "明确BPM/曲风/人声性别可提高可控性",
+        "歌词需避免侵权旋律与商标口号",
+        "多版本生成再挑轨是常态"
+      ],
+      "angle": "品牌广告歌30秒版"
+    },
+    {
+      "slug": "elevenlabs-duoyuyan-peiyin",
+      "title": "ElevenLabs多语言配音：跨境电商详情视频本地化",
+      "keyword": "ElevenLabs多语言配音",
+      "description": "用同一音色方案做多语言口播，控制发音与术语。",
+      "category": "音频语音",
+      "relatedToolIds": [
+        "elevenlabs"
+      ],
+      "dataPoints": [
+        "多语言TTS可缩短本地化周期",
+        "专有名词需发音字典或改写",
+        "按字符计费要预估语种数量"
+      ],
+      "angle": "五语种详情页配音排期"
+    },
+    {
+      "slug": "gamma-yanjiang-gaibian-koubo",
+      "title": "Gamma演示稿改口播稿：演讲者备注一键扩写技巧",
+      "keyword": "Gamma演讲口播稿",
+      "description": "把Gamma页面要点扩成演讲口播，并控制时长。",
+      "category": "效率办公",
+      "relatedToolIds": [
+        "gamma",
+        "chatgpt"
+      ],
+      "dataPoints": [
+        "页面子弹过密不适合直接念",
+        "可按每页90秒扩写",
+        "数据页必须人工核对数字"
+      ],
+      "angle": "路演10页演练"
+    },
+    {
+      "slug": "notion-ai-zhishiku-jiagou",
+      "title": "Notion AI知识库架构：团队Wiki信息架构模板",
+      "keyword": "Notion AI知识库",
+      "description": "设计可被AI有效总结的Wiki信息架构与命名规范。",
+      "category": "效率办公",
+      "relatedToolIds": [
+        "notion-ai"
+      ],
+      "dataPoints": [
+        "混乱页面结构会导致AI总结跑偏",
+        "数据库属性利于过滤",
+        "权限分区避免敏感信息进入通用问答"
+      ],
+      "angle": "初创公司Wiki树"
+    },
+    {
+      "slug": "jasper-seo-mokuai-shiyong",
+      "title": "Jasper SEO模块怎么用：标题描述与文章提纲生成",
+      "keyword": "Jasper SEO模块",
+      "description": "在人工关键词研究前提下，用Jasper加速提纲与元描述。",
+      "category": "写作文案",
+      "relatedToolIds": [
+        "jasper"
+      ],
+      "dataPoints": [
+        "SEO工具不能替代关键词调研与搜索意图判断",
+        "元描述建议50-160字符量级可测",
+        "批量生成后必须抽检事实"
+      ],
+      "angle": "工具站栏目页批量元数据"
+    },
+    {
+      "slug": "copy-ai-gongzuoliu-agent",
+      "title": "Copy.ai工作流Agent：获客邮件序列自动化设计",
+      "keyword": "Copy.ai工作流",
+      "description": "设计冷启动邮件序列的提示约束与合规退订。",
+      "category": "写作文案",
+      "relatedToolIds": [
+        "copy-ai"
+      ],
+      "dataPoints": [
+        "冷邮件需遵守反垃圾与退订法规",
+        "个性化变量过多易暴露「群发感」",
+        "A/B主题行测试仍必要"
+      ],
+      "angle": "B2B 5封序列大纲"
+    },
+    {
+      "slug": "v0-shadcn-ui-shengcheng",
+      "title": "v0结合组件库生成后台界面：中后台表格页提示词",
+      "keyword": "v0生成后台界面",
+      "description": "用明确组件约束让v0输出更接近可维护的中后台代码。",
+      "category": "编程开发",
+      "relatedToolIds": [
+        "v0"
+      ],
+      "dataPoints": [
+        "指定组件库可减少样式漂移",
+        "生成代码仍需无障碍与响应式抽检",
+        "权限与数据获取逻辑通常需手写"
+      ],
+      "angle": "订单列表页提示模板"
+    },
+    {
+      "slug": "copilot-qiye-ban-anquan",
+      "title": "GitHub Copilot企业版安全：代码隐私与策略管控要点",
+      "keyword": "Copilot企业版安全",
+      "description": "评估企业启用Copilot时的代码留存、屏蔽与审计能力。",
+      "category": "编程开发",
+      "relatedToolIds": [
+        "github-copilot"
+      ],
+      "dataPoints": [
+        "Enterprise提供更多策略与隐私控制",
+        "可配置屏蔽文件/建议来源等策略（以官方文档为准）",
+        "安全团队应纳入采购评审"
+      ],
+      "angle": "金融机构采购问卷"
+    },
+    {
+      "slug": "cursor-rules-xiangmu-guifan",
+      "title": "Cursor Rules项目规范：用规则文件统一团队AI编码风格",
+      "keyword": "Cursor Rules规范",
+      "description": "说明用规则约束目录结构、测试要求与禁止事项的方法。",
+      "category": "编程开发",
+      "relatedToolIds": [
+        "cursor"
+      ],
+      "dataPoints": [
+        "项目级规则可减少AI乱改架构",
+        "把代码评审红线写入规则更有效",
+        "规则过长会占用上下文"
+      ],
+      "angle": "前端单体仓规则示例要点"
+    },
+    {
+      "slug": "deepseek-api-jieru-biaozi",
+      "title": "DeepSeek API接入指南：鉴权限流与流式输出示例要点",
+      "keyword": "DeepSeek API接入",
+      "description": "面向后端的DeepSeek API接入注意点与成本观测。",
+      "category": "编程开发",
+      "relatedToolIds": [
+        "deepseek"
+      ],
+      "dataPoints": [
+        "兼容常见Chat Completions风格接口便于迁移",
+        "需监控TPM/RPM限流",
+        "关键业务加内容安全审核层"
+      ],
+      "angle": "从OpenAI客户端迁移检查表"
+    },
+    {
+      "slug": "kimi-gongzuo-liu-duowenjian",
+      "title": "Kimi多文件上传工作流：研报对比与引用定位方法",
+      "keyword": "Kimi多文件上传",
+      "description": "用Kimi同时分析多份研报并要求页码级引用。",
+      "category": "对话助手",
+      "relatedToolIds": [
+        "kimi"
+      ],
+      "dataPoints": [
+        "多文件对比是长上下文产品优势场景",
+        "要求「出处定位」便于人工抽检",
+        "扫描版PDF需先OCR"
+      ],
+      "angle": "投研助理日更流程"
+    },
+    {
+      "slug": "gemini-workspace-bangong",
+      "title": "Gemini与Google Workspace办公：Gmail文档表格联动",
+      "keyword": "Gemini Workspace办公",
+      "description": "说明在Gmail/Docs/Sheets侧边栏使用Gemini的办公场景。",
+      "category": "效率办公",
+      "relatedToolIds": [
+        "gemini"
+      ],
+      "dataPoints": [
+        "深度绑定Google账号生态",
+        "企业版涉及管理员控制与数据区域",
+        "适合已有Workspace存量客户"
+      ],
+      "angle": "市场部周报自动化"
+    },
+    {
+      "slug": "claude-artifacts-jiaohu-yuilan",
+      "title": "Claude Artifacts交互预览：用它做原型与小工具的方法",
+      "keyword": "Claude Artifacts",
+      "description": "介绍Artifacts在生成可预览内容上的用法与限制。",
+      "category": "对话助手",
+      "relatedToolIds": [
+        "claude"
+      ],
+      "dataPoints": [
+        "Artifacts便于查看生成的代码/文档片段",
+        "不替代完整本地工程环境",
+        "适合教学与轻量原型"
+      ],
+      "angle": "产品经理原型验证"
+    },
+    {
+      "slug": "chatgpt-memory-gerenhua",
+      "title": "ChatGPT记忆功能个性化：开启关闭与隐私管理建议",
+      "keyword": "ChatGPT记忆功能",
+      "description": "说明记忆功能对连续性任务的价值与敏感信息管理。",
+      "category": "对话助手",
+      "relatedToolIds": [
+        "chatgpt"
+      ],
+      "dataPoints": [
+        "Memory可跨会话记住用户偏好",
+        "用户通常可查看/删除记忆项（以产品设置为准）",
+        "勿写入密码与身份证号"
+      ],
+      "angle": "个人知识助理配置"
+    },
+    {
+      "slug": "ai-daohang-zhan-seo-celue",
+      "title": "AI工具导航站SEO策略：栏目页与评测内链权重分配",
+      "keyword": "AI工具导航站SEO",
+      "description": "针对工具导航站的信息架构、评测内容与广告位共存SEO方法。",
+      "category": "行业研究",
+      "relatedToolIds": [
+        "chatgpt",
+        "midjourney",
+        "perplexity"
+      ],
+      "dataPoints": [
+        "导航站依赖「查询意图+评测深度」获取长尾",
+        "广告过多影响体验与停留",
+        "每次工具更新应同步刷新评测数据"
+      ],
+      "angle": "本站可执行的内链矩阵"
+    },
+    {
+      "slug": "aigc-chengben-hesuan-moxing",
+      "title": "AIGC内容成本核算模型：单篇图文视频的全要素成本",
+      "keyword": "AIGC内容成本核算",
+      "description": "把订阅费、算力、审核人力折算到单条内容成本。",
+      "category": "行业研究",
+      "relatedToolIds": [
+        "midjourney",
+        "runway",
+        "chatgpt",
+        "elevenlabs"
+      ],
+      "dataPoints": [
+        "视频单条成本通常远高于图文",
+        "审核人力常被低估",
+        "返工率是隐藏成本"
+      ],
+      "angle": "给出可填的成本表字段"
+    },
+    {
+      "slug": "ai-gongju-xuanxing-pingfenka",
+      "title": "AI工具选型评分卡：功能价格合规与集成的权重设计",
+      "keyword": "AI工具选型评分卡",
+      "description": "提供可复制的选型评分卡，避免只看演示效果。",
+      "category": "行业研究",
+      "relatedToolIds": [
+        "chatgpt",
+        "claude",
+        "github-copilot"
+      ],
+      "dataPoints": [
+        "建议功能/成本/合规/集成/厂商稳定性五维",
+        "POC必须用真实数据量",
+        "合同应含数据删除与退出条款"
+      ],
+      "angle": "采购委员会投票表"
+    },
+    {
+      "slug": "weilai-ai-gongju-qushi-2026",
+      "title": "2026年AI工具趋势：Agent多模态与端侧模型的产品机会",
+      "keyword": "2026年AI工具趋势",
+      "description": "展望Agent化、多模态与端侧推理对工具导航与产品形态的影响。",
+      "category": "行业研究",
+      "relatedToolIds": [
+        "chatgpt",
+        "claude",
+        "gemini",
+        "cursor"
+      ],
+      "dataPoints": [
+        "Agent从演示走向带权限的工作流",
+        "端侧小模型降低隐私敏感场景成本",
+        "工具整合与账号体系成为新壁垒"
+      ],
+      "angle": "给导航站品类扩张建议"
+    },
+    {
+      "slug": "ai-huihua-chengben-youhua",
+      "title": "AI对话成本优化方法：缓存系统提示与模型路由降本",
+      "keyword": "AI对话成本优化",
+      "description": "用模型路由、提示压缩与缓存策略降低企业对话API月费。",
+      "category": "编程开发",
+      "relatedToolIds": [
+        "chatgpt",
+        "deepseek",
+        "claude"
+      ],
+      "dataPoints": [
+        "系统提示过长会在每次请求重复计费",
+        "简单意图可路由到更便宜的小模型",
+        "语义缓存可降低重复问答的token消耗"
+      ],
+      "angle": "客服场景月费砍半检查表"
+    },
+    {
+      "slug": "ai-tuxiang-piliang-chantu-gongchang",
+      "title": "AI图像批量出图工厂：SKU主图标准化生产流水线",
+      "keyword": "AI图像批量出图",
+      "description": "为电商SKU设计可复用的提示词、种子与质检标准。",
+      "category": "图像生成",
+      "relatedToolIds": [
+        "midjourney",
+        "stable-diffusion",
+        "ideogram"
+      ],
+      "dataPoints": [
+        "固定种子与参考图可提高系列一致性",
+        "人工质检应设缺陷分类（畸形/文字错误/侵权元素）",
+        "批量任务适合本地SD或API队列"
+      ],
+      "angle": "日产200张主图的岗位分工"
+    },
+    {
+      "slug": "ai-shipin-daochu-geshi-pingtai",
+      "title": "AI视频导出格式与平台规格：抖音视频号YouTube对照",
+      "keyword": "AI视频导出格式",
+      "description": "按平台分辨率、码率与时长限制整理AI视频导出参数。",
+      "category": "视频生成",
+      "relatedToolIds": [
+        "runway",
+        "pika",
+        "kling"
+      ],
+      "dataPoints": [
+        "竖屏9:16仍是短视频主流",
+        "平台对码率与封面有隐性质量门槛",
+        "AI成片常需二次裁切与字幕烧录"
+      ],
+      "angle": "一键导出预设清单"
+    },
+    {
+      "slug": "ai-yuyin-kecheng-shengchan",
+      "title": "AI语音课程生产流程：提纲配音剪辑与字幕一体化",
+      "keyword": "AI语音课程生产",
+      "description": "知识付费团队用TTS+转写打造可复用的课程生产线。",
+      "category": "音频语音",
+      "relatedToolIds": [
+        "elevenlabs",
+        "whisper",
+        "chatgpt"
+      ],
+      "dataPoints": [
+        "先定提纲再TTS可减少废录音",
+        "Whisper时间轴利于课程字幕与笔记",
+        "音色一致性影响系列课品牌感"
+      ],
+      "angle": "60分钟课程制作排期"
+    },
+    {
+      "slug": "ai-gongju-guanggao-weizhi-dianji",
+      "title": "AI导航站广告位点击率优化：位置尺寸与原生样式测试",
+      "keyword": "AI导航站广告位",
+      "description": "结合导航站四类广告位给出可测试的样式与位置假设。",
+      "category": "行业研究",
+      "relatedToolIds": [
+        "chatgpt",
+        "midjourney"
+      ],
+      "dataPoints": [
+        "顶部横幅曝光高但盲目点击多，需看转化而非只看CTR",
+        "列表原生广告与工具卡片样式接近时CTR通常更高",
+        "侧边栏在桌面有效、移动端需改版"
+      ],
+      "angle": "本站banner/sidebar/inline/footer实验设计"
+    }
+  ]
+}
