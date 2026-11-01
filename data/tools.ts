@@ -185,6 +185,15 @@ export const tools: Tool[] = [
     featured: true,
   },
   {
+    id: "agent-qa",
+    name: "agent-qa",
+    description: "自然语言 Web、Android 与 iOS 测试，结合 memidex 持久记忆与经验证的自我改进。CLI 免费，模型费用另计。",
+    url: "https://vostride.com",
+    category: "coding",
+    tags: ["自动化测试", "持久记忆", "MCP"],
+    free: true,
+  },
+  {
     id: "cursor",
     name: "Cursor",
     description: "面向 AI 编程的代码编辑器，支持多文件理解。",
